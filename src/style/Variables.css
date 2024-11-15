@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #e1deda;
+  --tertiary-color: #dcb8a0;
+  --quaternary-color: #d86041;
+  --quinary-color: #78462b;
+  --senary-color: #30221a;
+  --button-color: green;
+
+  --font-text: 'open sans', sans-serif;
+  --font-title: 'Old Standard TT', serif;
+
+  --size-xxs: max(0.6rem, 1vw);
+  --size-xs: max(1rem, 2vw);
+  --size-sm: max(1.2rem, 1.6vw);
+  --size-md: max(1.4rem, 1.8vw);
+  --size-lg: max(1.5rem, 2vw);
+  --size-xl: max(1.8rem, 2.4vw);
+}
+
+.button {
+  background-color: var(--quinary-color);
+  color: var(--primary-color);
+  font-size: var(--size-md);
+  font-family: var(--font-text);
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 5px var(--secondary-color);
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: var(--button-color);
+}
