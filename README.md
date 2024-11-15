@@ -1,50 +1,26 @@
-# React + TypeScript + Vite
+# Site Alessandra - E-book INVESTINDO NA SUA IMAGEM COM CONSCIÊNCIA FINANCEIRA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## O que é o E-book INVESTINDO NA SUA IMAGEM COM CONSCIÊNCIA FINANCEIRA?
 
-Currently, two official plugins are available:
+O E-book INVESTINDO NA SUA IMAGEM COM CONSCIÊNCIA FINANCEIRA é um guia prático para você aprender a se vestir de forma adequada e econômica, sem abrir mão da qualidade e da elegância.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## O que você vai aprender com o E-book INVESTINDO NA SUA IMAGEM COM CONSCIÊNCIA FINANCEIRA?
 
-## Expanding the ESLint configuration
+- Como se vestir de forma adequada para cada ocasião;
+- Como economizar na hora de comprar roupas;
+- Como montar um guarda-roupa versátil e funcional;
+- Como valorizar a sua imagem pessoal e profissional.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Quem é Alessandra?
 
-- Configure the top-level `parserOptions` property like this:
+Alessandra é consultora de imagem e estilo e ajuda pessoas a se vestirem de forma adequada e econômica, sem abrir mão da qualidade e da elegância.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tecnologias utilizadas
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- HTML
+- CSS
+- JavaScript
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Frameworks e bibliotecas utilizadas
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Lucid
