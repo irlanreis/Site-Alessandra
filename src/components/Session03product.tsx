@@ -30,7 +30,7 @@ const Session03product = () => {
           INVESTINDO NA SUA IMAGEM COM
           CONSCIÊNCIA FINANCEIRA</span>
         </h1>
-        <ul>
+        <ul className="ul-session03-container">
           {clientFindInProduct.map((item, index) => (
             <li key={index} className="li-session03">
               {item.text}
