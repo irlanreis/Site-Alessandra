@@ -1,0 +1,64 @@
+.main-session04 {
+  background-image: url("../assets/images/4.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.title-session04 {
+  text-align: center;
+  color: var(--quinary-color);
+  font-size: var(--size-lg);
+  font-family: var(--font-title);
+  font-weight: 600;
+  width: 80%;
+  text-align: left;
+  line-height: 1;
+}
+
+.ul-session04-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  background-color: var(--quaternary-color);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.li-session04 {
+  list-style: none;
+  width: 100%;
+  color: var(--primary-color);
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px 0;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.li-session04::before {
+  content: "\2714";
+  color: var(--tertiary-color);
+  font-size: var(--size-xl);
+  margin-right: 10px;
+}
+
+.itens-product {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 80px;
+  width: 88%;
+}

@@ -49,14 +49,6 @@
   padding: 10px;
 }
 
-.title {
-  font-size: max(0.9rem, 1.5vw);
-  font-weight: bold;
-  font-family: var(--font-text);
-  color: var(--quinary-color);
-  text-align: left;
-}
-
 .text-li {
   text-align: left;
   font-size: var(--size-xs);

@@ -10,6 +10,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 80px;
 }
 
 .title-session03 {
@@ -28,9 +29,8 @@
 .ul-session03-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 100%;
   text-align: left;
 }
 
@@ -41,7 +41,7 @@
   font-size: var(--size-sm);
   font-family: var(--font-text);
   font-weight: 400;
-  margin: 10px 0;
+  margin: 8px 0;
   display: flex;
   align-items: center;
   justify-content: flex-start;
