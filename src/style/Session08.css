@@ -1,0 +1,34 @@
+@import 'Variables.css';
+
+.container-08 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+}
+
+.title-08 {
+  font-family: var(--font-title);
+  font-size: var(--size-lg);
+  color: var(--quinary-color);
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.text-08 {
+  font-family: var(--font-text);
+  font-size: var(--size-sm);
+  color: var(--quinary-color);
+  padding: 10px;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.perfil-08 {
+  width: 98%;
+  border-radius: 20px;
+  border: 1px solid var(--quaternary-color);
+  background-color: var(--quaternary-color);
+}

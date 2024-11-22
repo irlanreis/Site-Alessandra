@@ -14,10 +14,10 @@
 .title-session04 {
   text-align: center;
   color: var(--quinary-color);
-  font-size: var(--size-lg);
+  font-size: var(--size-xl);
   font-family: var(--font-title);
   font-weight: 600;
-  width: 80%;
+  width: 78%;
   text-align: left;
   line-height: 1;
 }

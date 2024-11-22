@@ -33,11 +33,17 @@
   justify-content: center;
   align-items: center;
   border: 2px solid var(--primary-color);
+  
 }
 
 .card-06:hover {
   transform: scale(1.02);
   transition: 0.3s;
+}
+
+.card-text {
+  text-align: center;
+  font-size: var(--size-sm);
 }
 
 .circle-06 {
