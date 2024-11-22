@@ -5,17 +5,16 @@
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 50px;
-  padding-bottom: 50px;
 }
 
 .title-session04 {
   text-align: center;
   color: var(--quinary-color);
-  font-size: var(--size-lg);
+  font-size: var(--size-xl);
   font-family: var(--font-title);
   font-weight: 600;
   width: 78%;

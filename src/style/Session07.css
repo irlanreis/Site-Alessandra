@@ -10,6 +10,7 @@
   align-items: center;
   flex-direction: column;
   gap: 1rem;
+  padding-bottom: 20px;
 }
 
 .title-07 {
@@ -52,7 +53,6 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 10px 0;
   overflow: hidden;
-  transition: all 2s ease;
 }
 
 .faq-answer {
@@ -66,11 +66,10 @@
   margin-top: 10px;
   color: var(--quinary-color);
   border-radius: 5px;
-  padding: 0 5px;
-  transition: max-height 2s ease, opacity 2s ease;
+  padding: 0 10px;
 }
 
 .faq-item.open .faq-answer {
   opacity: 1;
-  max-height: 1000px; /* Ajuste conforme necessário */
+  max-height: 340px; /* Ajuste conforme necessário */
 }
