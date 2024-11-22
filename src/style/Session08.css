@@ -10,18 +10,22 @@
 
 .title-08 {
   font-family: var(--font-title);
-  font-size: var(--size-lg);
+  font-size: var(--size-md);
   color: var(--quinary-color);
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 
+.container-text {
+  padding-bottom: 
+}
+
 .text-08 {
   font-family: var(--font-text);
   font-size: var(--size-sm);
   color: var(--quinary-color);
-  padding: 10px;
+  padding: 5px 10px;
   text-align: justify;
   font-weight: 100;
 }
