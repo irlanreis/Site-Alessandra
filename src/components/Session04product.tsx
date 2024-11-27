@@ -30,7 +30,7 @@ const Session04product = () => {
     <div className="main-session04">
       <div className="itens-product">
         <h1 className="title-session04">
-          O QUE VOCÊ ENCONTRA NA AULA BÔNUS <span className="destaque04">“ESTILO RENTÁVEL”</span>?
+          O que você encontra na aula bônus "ESTILO RENTÁVEL”?
         </h1>
         <ul className="ul-session04-container">
           {clientFindInProduct.map((item, index) => (

@@ -6,17 +6,16 @@
   --quinary-color: #78462b;
   --senary-color: #30221a;
   --button-color: green;
-  --button-hover: #;
 
   --font-text: 'open sans', sans-serif;
   --font-title: 'Old Standard TT', serif;
 
   --size-xxs: max(0.6rem, 1vw);
   --size-xs: max(1rem, 2vw);
-  --size-sm: max(1.1rem, 1.4vw);
-  --size-md: max(1.4rem, 1.8vw);
-  --size-lg: max(1.5rem, 2vw);
-  --size-xl: max(2rem, 2.8vw);
+  --size-sm: max(1.2rem, 2vw);
+  --size-md: max(1.4rem, 2.4vw);
+  --size-lg: clamp(1.8rem, 2vw + 0.1vw, 2.6vw);
+  --size-xl: max(2.4rem, 2.8vw);
 }
 
 .button {
@@ -31,9 +30,10 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
-.button:hover {
+.button:hover, .text-button:hover {
   background-color: var(--button-color);
   color: var(--primary-color);
 }

@@ -34,7 +34,9 @@ const Session08Sobre = () => {
         também para o bolso de seus clientes.
         </p>
       </div>
+      <div className="container-perfil">
       <img className="perfil-08" src={perfil} alt="foto Alessandra" />
+      </div>
     </div>
   );
 };

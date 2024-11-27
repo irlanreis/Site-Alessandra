@@ -59,7 +59,7 @@
   font-size: var(--size-sm);
   font-family: var(--font-text);
   font-weight: 600;
-  text-align: justify;
+  text-align: left;
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -72,4 +72,27 @@
 .faq-item.open .faq-answer {
   opacity: 1;
   max-height: 340px; /* Ajuste conforme necessário */
+}
+
+@media (min-width: 768px) {
+  .container-main-07 {
+    background-position: center;
+  }
+
+  .faq-section {
+    width: 90%;
+  }
+
+  .title-07 {
+    font-size: var(--size-xl);
+    padding: 5%;
+  }
+
+  .faq-question {
+    font-size: var(--size-lg);
+  }
+
+  .faq-answer {
+    font-size: var(--size-md);
+  }
 }

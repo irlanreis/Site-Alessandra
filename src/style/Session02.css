@@ -7,7 +7,7 @@
   align-items: center;
   background-image: url("../assets/images/2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   width: 100%;
 }
 
@@ -96,4 +96,33 @@ path {
 
 .fix-button {
   margin-bottom: 20px;
+}
+
+.text-button {
+  font-size: var(--size-md);
+  font-family: var(--font-text);
+  font-weight: bold;
+  color: var(--quinary-color);
+}
+
+@media (min-width: 768px) {
+  .content-text {
+    height: 50vh;
+  }
+
+  .title-main {
+    font-size: var(--size-xl);
+    width: 70%;
+  }
+
+  .main-bonus {
+    width: 80%;
+    height: 50vh;
+    font-size: var(--size-md);
+    padding: 10px;
+  }
+
+  .destaque-bonus {
+    font-size: var(--size-md);
+  }
 }

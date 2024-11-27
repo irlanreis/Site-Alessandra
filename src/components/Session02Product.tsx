@@ -23,9 +23,9 @@ const Session02Product = () => {
           {<CircleChevronRight className="arrow"/>} O valor integral do e-book em ca$hback para ser usado em qualquer serviço consultoria que você contratar com a Alessandra.
           </p>
         </div>
-        <button type="button" className="button">
-          <a>Preciso deste e-book</a>
-        </button>
+        <a href="#" className="button">
+          Preciso deste e-book
+        </a>
       </div>
     </div>
   );

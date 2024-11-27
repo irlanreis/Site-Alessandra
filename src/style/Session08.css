@@ -10,7 +10,7 @@
 
 .title-08 {
   font-family: var(--font-title);
-  font-size: var(--size-md);
+  font-size: var(--size-lg);
   color: var(--quinary-color);
   width: 100%;
   text-align: center;
@@ -23,16 +23,21 @@
 
 .text-08 {
   font-family: var(--font-text);
-  font-size: var(--size-sm);
+  font-size: var(--size-md);
   color: var(--quinary-color);
-  padding: 5px 10px;
+  padding: 6px 20px;
   text-align: justify;
   font-weight: 100;
 }
 
-.perfil-08 {
-  width: 98%;
-  border-radius: 20px;
-  border: 1px solid var(--quaternary-color);
+.container-perfil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: var(--quaternary-color);
+  margin-top: 20px;
+}
+
+.perfil-08 {
+  width: 60%;
 }

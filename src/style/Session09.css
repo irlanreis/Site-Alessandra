@@ -42,3 +42,9 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+  .text-09 {
+    padding: 30px;
+  }
+}

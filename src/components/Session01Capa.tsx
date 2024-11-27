@@ -3,6 +3,7 @@ import bannerEbook from "../assets/images/capa-ebook.png";
 import iconSecurit from "../assets/images/icon.png";
 
 const Session01Capa = () => {
+
   return (
     <div className="main-content" id="#home">
       <img src={bannerEbook} alt="banner e-book" className="banner" />

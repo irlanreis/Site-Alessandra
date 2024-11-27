@@ -13,13 +13,15 @@
 
 .title-session04 {
   text-align: center;
-  color: var(--quinary-color);
-  font-size: var(--size-xl);
+  color: var(--secondary-color);
+  font-size: var(--size-lg);
   font-family: var(--font-title);
   font-weight: 600;
-  width: 78%;
-  text-align: left;
+  width: 70%;
   line-height: 1;
+  background-color: var(--quaternary-color);
+  border-radius: 15px;
+  padding: 10px 0;
 }
 
 .ul-session04-container {
@@ -61,4 +63,10 @@
   align-items: start;
   gap: 80px;
   width: 88%;
+}
+
+@media (min-width: 768px) {
+  .title-session04 {
+    width: 60%;
+  }
 }

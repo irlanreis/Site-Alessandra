@@ -26,28 +26,29 @@
 .product-content {
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   flex-direction: column;
   margin: 10px;
+  margin-bottom: 60px;
 }
 
 .text-info-01,
 .text-info-02 {
   color: var(--primary-color);
   text-align: center;
-  max-width: 440px;
+  max-width: 620px;
+  line-height: 1.2;
+  font-size: var(--size-xs);
 }
 
 .text-info-01 {
-  font-size: var(--size-xs);
   font-weight: bold;
   font-family: var(--font-title);
   overflow: hidden;
 }
 
 .text-info-02 {
-  font-size: var(--size-xs);
   font-family: var(--font-text);
   overflow: hidden;
 }
@@ -55,7 +56,7 @@
 .destaque {
   font-size: var(--size-xs);
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .icon-securit {
@@ -66,9 +67,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   background-color: var(--quinary-color);
-  padding: 6px;
+  padding: 2px 6px;
   border-radius: 8px;
   opacity: 0.8;
 }
@@ -87,4 +88,30 @@
   color: var(--primary-color);
   font-size: var(--size-xxs);
   font-family: var(--font-text);
+}
+
+@media (min-width: 540px) {
+  .text-info-01,
+  .text-info-02 {
+    font-size: var(--size-sm);
+    max-width: 86%;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-info-01,
+  .text-info-02 {
+    font-size: var(--size-md);
+    max-width: 86%;
+  }
+
+  .product-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner {
+    width: 100%;
+    max-width: 30rem;
+  }
 }
