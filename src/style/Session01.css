@@ -6,10 +6,25 @@
   box-sizing: border-box;
 }
 
+.container-all-items-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.container-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
 .banner {
-  width: 80vw;
-  max-width: 20rem;
-  height: auto;
+  width: 60vw;
+  max-width: 26rem;
 }
 
 .main-content {
@@ -29,8 +44,7 @@
   gap: 20px;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
-  margin-bottom: 60px;
+  padding: 15px;
 }
 
 .text-info-01,
@@ -39,18 +53,21 @@
   text-align: center;
   max-width: 620px;
   line-height: 1.2;
-  font-size: var(--size-xs);
+  width: 100%;
 }
 
 .text-info-01 {
-  font-weight: bold;
   font-family: var(--font-title);
   overflow: hidden;
+  font-weight: 600;
+  font-size: var(--size-lg);
+  line-height: 1;
 }
 
 .text-info-02 {
   font-family: var(--font-text);
   overflow: hidden;
+  font-size: var(--size-xs);
 }
 
 .destaque {
@@ -65,22 +82,16 @@
 
 .container-icon-text {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
   background-color: var(--quinary-color);
   padding: 2px 6px;
   border-radius: 8px;
-  opacity: 0.8;
-}
-
-.main-securit {
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  opacity: 0.4;
+  max-width: 380px;
+  margin: 20px 0;
   width: 100%;
-  margin-right: 16px;
-  margin-bottom: 10px;
 }
 
 .title-securit,
@@ -90,28 +101,179 @@
   font-family: var(--font-text);
 }
 
-@media (min-width: 540px) {
+@media (min-width: 668px) {
+  .container-all-items-01 {
+    width: 100%;
+  }
+  
+  .main-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+  }
+
   .text-info-01,
+  .text-info-02 {
+    max-width: 94%;
+  }
+
   .text-info-02 {
     font-size: var(--size-sm);
-    max-width: 86%;
-  }
-}
-
-@media (min-width: 768px) {
-  .text-info-01,
-  .text-info-02 {
-    font-size: var(--size-md);
-    max-width: 86%;
   }
 
   .product-content {
+    width: 100%;
+  }
+
+  .banner {
+    width: 280vw;
+  }
+
+  .container-icon-text {
+    margin: 5px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .container-all-items-01 {
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+  }
+
+  .main-content {
+    flex-direction: row-reverse;
+    background-attachment: scroll;
+  }
+
+  .product-content {
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 40px;
+    width: 60%;
+  }
+
+  .text-info-01,
+  .text-info-02 {
+    font-size: var(--size-sm);
+    border-radius: 15px;
+    text-align: left;
+    width: 100%;
+  }         
+  
+  .text-info-01 {
+    font-size: 2rem;
+  }
+
+  .text-info-02 {
+    font-size: 1.2rem;
+  }
+
+  .container-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 20px;
+    width: 50%;
+  }
+
+  .banner {
+    width: 100%;
+    max-width: 20rem;
+  }
+    .container-icon-text {
+    margin: 10px 0;
+  }                    
+  .destaque {
+    font-size: var(--size-xs);
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    background-image: url("../assets/backgrounds/1.png");
+    background-size: cover;
+    background-position: right;
+  }
+
+  .container-all-items-01 {
+    max-width: 80%;
+    height: 70%;
+    margin-right: 0;
+  }
+
+  .product-content {
+    justify-content: space-evenly;
+    height: 100%;
+    width: 60%;
+    padding: 0;
+  }
+
+  .text-info-01 {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+
+  .text-info-02 {
+    font-size: 1.4rem;
+  }
+  
+  .container-banner {
+    width: 40%;
+    padding:  0 20px 0 0; 
+  }
+
+  .banner {
+    max-width: 22rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  .main-content {
+    background-image: url("../assets/backgrounds/1.png");
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+  }
+
+
+  .container-all-items-01 {
+    max-width: 1300px;
+    height: 70%;
+    margin-right: 0;
+  }
+
+  .product-content {
+    justify-content: space-evenly;
+    height: 100%;
+  }
+
+  .text-info-01 {
+    font-size: 2.4rem;
+    color: var(--primary-color);
+  }
+
+  .text-info-02 {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+  }
+
+  .destaque {
+    font-size: 1.6rem;
   }
 
   .banner {
     width: 100%;
     max-width: 30rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container-all-items-01 {
+    margin-right: 5%;
   }
 }
