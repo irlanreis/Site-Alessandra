@@ -25,7 +25,7 @@
   background-color: var(--quinary-color);
   border-radius: 18px;
   padding: 5px 10px;
-  width: max(18rem, 90vw);
+  width: max(18rem, 30vw);
   height: 180px;
   z-index: 1;
   position: relative;

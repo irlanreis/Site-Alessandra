@@ -3,23 +3,25 @@
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 50px;
+  padding: 40px 0;
 }
 
 .title-session04 {
   text-align: center;
-  color: var(--quinary-color);
-  font-size: var(--size-xl);
+  color: var(--secondary-color);
+  font-size: var(--size-md);
   font-family: var(--font-title);
   font-weight: 600;
-  width: 78%;
-  text-align: left;
+  width: 70%;
   line-height: 1;
+  background-color: var(--quaternary-color);
+  border-radius: 15px;
+  padding: 10px 0;
 }
 
 .ul-session04-container {
@@ -61,4 +63,53 @@
   align-items: start;
   gap: 80px;
   width: 88%;
+}
+
+@media (min-width: 768px) {
+  .main-session04 {
+    background-image: url("../assets/backgrounds/4.png");
+  }
+
+  .title-session04 {
+    font-size: max(2rem, 3vw);
+    width: 60%;
+    padding: 20px 0;
+  }
+
+  .ul-session04-container {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .li-session04 {
+    font-size: var(--size-md);
+    gap: 20px;
+  }
+
+  .itens-product {
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-session04 {
+
+  }
+
+  .title-session04 {
+    
+  }
+
+  .ul-session04-container {
+    gap: 10px;
+  }
+
+  .li-session04 {
+    font-size: var(--size-sm);
+    gap: 20px;
+  }
+
+  .itens-product {
+    
+  }
 }
