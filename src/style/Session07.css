@@ -96,3 +96,48 @@
     font-size: var(--size-md);
   }
 }
+
+@media (min-width: 1024px) {
+  .container-main-07 {
+    background-position: right;
+  }
+
+  .faq-section {
+    width: 80%;
+  }
+
+  .title-07 {
+    font-size: var(--size-xxl);
+  }
+
+  .faq-question {
+    font-size: var(--size-xl);
+  }
+
+  .faq-answer {
+    font-size: var(--size-lg);
+  }
+}
+
+@media (min-width: 1700px) {
+  .container-main-07 {
+
+  }
+
+  .faq-section {
+    width: 70%;
+  }
+
+  .title-07 {
+    font-size: var(--size-md);
+    width: 80%;
+  }
+
+  .faq-question {
+    font-size: var(--size-md);
+  }
+
+  .faq-answer {
+    font-size: max(1.5rem, 1.2vw);
+  }
+}

@@ -91,13 +91,15 @@
     background-image: url("../assets/backgrounds/3.png");
     background-position: bottom;
     padding: 40px;
+    height: 100vh;
   }
   .title-session03 {
     font-size: var(--size-md);
   }
 
   .li-session03 {
-    font-size: var(--size-xs);
+    font-size: max(1.2rem, 1.3vw);
+    margin: 0;
   }
 
   .li-session03::before {
@@ -105,7 +107,9 @@
   }
 
   .ul-session03-container {
-    padding: 30px;
+    padding: 20px;
     box-shadow:  0 4px 30px -8px var(--primary-color);
+    gap: 20px;
+    height: 60%;
   }
 }
