@@ -179,18 +179,19 @@ path {
     padding: 20px;
     margin: 0;
     text-align: left;
-    width: 70%;
+    width: 100%;
   }
 
   .content-text {
     align-items: start;
-    width: 70%;
+    width: 60%;
+    gap: 40px;
   }
 
   .main-bonus {
     font-size: var(--size-md);
     padding: 20px;
-    max-width: 100%;
+    width: 100%;
     height: 45%;
   }
 

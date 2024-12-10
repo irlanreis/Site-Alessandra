@@ -107,15 +107,15 @@
   }
 
   .title-07 {
-    font-size: var(--size-xxl);
+    font-size: var(--size-lg);
   }
 
   .faq-question {
-    font-size: var(--size-xl);
+    font-size: var(--size-lg);
   }
 
   .faq-answer {
-    font-size: var(--size-lg);
+    font-size: max(1.2rem, 1.2vw);
   }
 }
 
