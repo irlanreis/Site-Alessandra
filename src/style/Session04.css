@@ -67,7 +67,8 @@
 
 @media (min-width: 768px) {
   .main-session04 {
-    height: 100vh;
+    background-image: url("../assets/backgrounds/4.png");
+    align-items: end;
   }
 
   .title-session04 {
@@ -88,13 +89,14 @@
   }
 
   .itens-product {
-    align-items: flex-start;
+    align-items: end;
+    padding: 20px;
   }
 }
 
 @media (min-width: 1024px) {
   .main-session04 {
-
+    
   }
 
   .title-session04 {
