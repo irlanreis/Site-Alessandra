@@ -41,3 +41,65 @@
 .perfil-08 {
   width: 60%;
 }
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+@media (min-width: 1700px) {
+  .container-08 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--quaternary-color);
+  }
+  
+  .container-perfil {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--quaternary-color);
+    margin-top: 0;
+  }
+  
+  .perfil-08 {
+    width: 50vh;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .title-08 {
+    font-size: var(--size-xl);
+    color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .text-08 {
+    font-size: max(1.8rem, 1vw);
+    color: var(--primary-color);
+    padding: 6px 20px;
+    text-align: justify;
+    font-weight: 100;
+  }
+
+
+  .container-text {
+    padding-bottom: 20px;
+    width: 80%;
+  }
+
+  .main-title-text-08 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
