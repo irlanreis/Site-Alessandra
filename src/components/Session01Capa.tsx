@@ -4,7 +4,7 @@ import iconSecurit from "../assets/images/icon.png";
 
 const Session01Capa = () => {
   return (
-    <div className="main-content" id="#home">
+    <div className="main-content" id="home">
       <div className="container-all-items-01">
         <div className="container-banner">
       <img src={bannerEbook} alt="banner e-book" className="banner" />

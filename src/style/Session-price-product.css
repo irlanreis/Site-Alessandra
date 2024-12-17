@@ -1,0 +1,186 @@
+@import "../style/variables.css";
+
+/* Container principal */
+.container-price-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Cartão */
+.card-price-product {
+  background-color: #e15c3b; /* Fundo do cartão */
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 94%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Título */
+.title-price-product {
+  font-size: max(2.8rem, 5vw);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-title);
+  color: var(--primary-color);
+}
+
+/* Bônus e Texto */
+.bonus-price-product,
+.ebook-price-product,
+.total,
+.installments,
+.payment {
+  margin: 0.4rem;
+  color: var(--primary-color);
+  font-family: var(--font-text);
+  font-size: var(--size-xs);
+  text-align: left;
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: var(--quinary-color);
+  font-weight: bold;
+  font-size: var(--size-sm);
+  font-family: var(--font-text);
+}
+
+.price-new,
+.price {
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: var(--size-sm);
+}
+
+.highlight {
+  font-weight: bold;
+  color: #2b1d16; /* Contraste */
+}
+
+.total-label {
+  font-weight: bold;
+}
+
+.payment {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.installment {
+  font-weight: bold;
+}
+
+.cash-payment {
+  font-size: var(--size-sm);
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.price-cash {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.text-content {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.ebook-price-product {
+  text-align: left;
+}
+
+.price-finally {
+  font-size: 2rem;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+@media (min-width: 468px) {
+  .card-price-product {
+    padding: 40px;
+  }
+
+  .bonus-price-product,
+  .ebook-price-product,
+  .total,
+  .installments,
+  .payment {
+    font-size: var(--size-sm);
+  }
+
+  .title-price-product {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bonus-price-product,
+  .ebook-price-product,
+  .total,
+  .installments,
+  .payment {
+    font-size: var(--size-md);
+  }
+
+  .card-price-product {
+    max-width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-content {
+    font-size: 2rem;
+    gap: 8px;
+  }
+
+  .price-cash {
+    font-size: 4rem;
+  }
+  .title-price-product {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  .card-price-product {
+    max-width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-content {
+    font-size: 2rem;
+    gap: 8px;
+  }
+
+  .price-cash {
+    font-size: 4rem;
+  }
+  .title-price-product {
+    font-size: 4rem;
+  }
+
+  .bonus-price-product, .ebook-price-product, .total, .installments, .payment {
+    font-size: var(--size-sm);
+  }
+}

@@ -43,7 +43,7 @@
   list-style: none;
   width: 100%;
   color: var(--secondary-color);
-  font-size: var(--size-sm);
+  font-size: var(--size-xs);
   font-family: var(--font-text);
   font-weight: 400;
   margin: 8px 0;
@@ -73,7 +73,6 @@
   .ul-session03-container {
     max-width: 80%;
     gap: 20px;
-    border: 1px solid var(--primary-color);
     padding: 30px;
   }
 
@@ -91,7 +90,8 @@
     background-image: url("../assets/backgrounds/3.png");
     background-position: bottom;
     padding: 40px;
-    height: 100vh;
+    diplsay: flex;
+    gap: 60px;
   }
   .title-session03 {
     font-size: var(--size-md);
@@ -107,7 +107,7 @@
   }
 
   .ul-session03-container {
-    padding: 20px;
+    padding: 40px;
     box-shadow:  0 4px 30px -8px var(--primary-color);
     gap: 20px;
     height: 60%;
