@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--secondary-color);
-  height: 20vh;  
+  padding: 60px;
 }
 
 .title-09 {

@@ -1,4 +1,5 @@
 import "../style/Session03.css";
+import Session03PriceProduct from "./Session03PriceProduct";
 
 const Session03product = () => {
   const clientFindInProduct = [
@@ -37,6 +38,7 @@ const Session03product = () => {
             </li>
           ))}
         </ul>
+        <Session03PriceProduct/>
     </div>
   );
 };

@@ -15,9 +15,10 @@
 
 .title-07 {
   width: 98%;
-  padding: 0 18px;
+  padding: 18px;
   color: var(--quinary-color);
-  font-size: var(--size-lg);
+  font-size: var(--size-md);
+  font-size: var(--size-md);
   font-weight: 700;
   font-family: var(--font-text);
   text-align: center;

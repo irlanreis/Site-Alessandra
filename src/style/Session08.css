@@ -23,7 +23,7 @@
 
 .text-08 {
   font-family: var(--font-text);
-  font-size: var(--size-md);
+  font-size: var(--size-xs);
   color: var(--quinary-color);
   padding: 6px 20px;
   text-align: justify;
@@ -53,22 +53,22 @@
     align-items: center;
     flex-direction: row;
     background-color: var(--quaternary-color);
+    max-height: 70vh;
   }
   
   .container-perfil {
-    width: 30%;
     display: flex;
     justify-content: center;
     background-color: var(--quaternary-color);
-    margin-top: 0;
+    width: 50%;
   }
   
   .perfil-08 {
-    width: 100vh;
-    height: 100vh;
     object-fit: cover;
     object-position: center;
     margin-left: 20px;
+    width: 30vh;
+    margin-top: 20%;
   }
 
   .title-08 {
@@ -79,12 +79,17 @@
     padding: 20px 0;
   }
 
+  .container-text {
+    padding-bottom: 20px;
+  }
+
   .text-08 {
-    font-size: max(1.2rem, 1vw);
+    font-size: max(1.6rem, 1vw);
     color: var(--primary-color);
     padding: 6px 20px;
     text-align: justify;
     font-weight: 100;
+    max-width: 100%;
   }
 
   .main-title-text-08 {
@@ -92,7 +97,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100vh;
+    width: 100%;
   }
   
 }
@@ -116,7 +121,6 @@
   
   .perfil-08 {
     width: 50vh;
-    height: 80vh;
     object-fit: cover;
     object-position: center;
   }
