@@ -7,12 +7,12 @@ function Session03PriceProduct() {
         <h1 className="title-price-product">Investimento</h1>
         <div className="text-content">
           <p className="bonus-price-product">
-            bônus da planilha <span className="price-old">R$ 59,00</span> por{" "}
+            Bônus da planilha <span className="price-old">R$ 59,00</span> por{" "}
             <span className="price-new">R$ 0,00</span>
           </p>
 
           <p className="bonus-price-product">
-            bônus da aula <span className="price-old">R$ 350,00</span> por{" "}
+            Bônus da aula <span className="price-old">R$ 350,00</span> por{" "}
             <span className="price-new">R$ 0,00</span>
           </p>
 

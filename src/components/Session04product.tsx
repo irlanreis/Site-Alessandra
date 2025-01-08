@@ -9,10 +9,10 @@ const Session04product = () => {
       text: "O efeito inconsciente da sua imagem - o olhar interno.",
     },
     {
-      text: "Saindo da “Síndrome do não tenho roupa”.",
+      text: "Saindo da síndrome do “não tenho roupa”.",
     },
     {
-      text: "A verdade: o preço que você paga não é o mais importante.",
+      text: "A verdade: O preço que você paga não é o mais importante.",
     },
     {
       text: "Comprando moda com consciência financeira.",
@@ -30,7 +30,7 @@ const Session04product = () => {
     <div className="main-session04">
       <div className="itens-product">
         <h1 className="title-session04">
-          O que você encontra na aula bônus "ESTILO RENTÁVEL”?
+        Conteúdos que vamos abordar na aula bônus "ESTILO RENTÁVEL”?
         </h1>
         <ul className="ul-session04-container">
           {clientFindInProduct.map((item, index) => (

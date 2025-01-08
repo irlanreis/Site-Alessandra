@@ -27,7 +27,7 @@ const Session03product = () => {
   return (
     <div className="main-session03">
         <h1 className="title-session03">
-          O QUE A CLIENTE ENCONTRA DENTRO DO EBOOK <span className="destaque-03">
+          CONTEÚDOS QUE VOCÊ ENCONTRA DENTRO DO EBOOK <span className="destaque-03">
           INVESTINDO NA SUA IMAGEM COM
           CONSCIÊNCIA FINANCEIRA</span>
         </h1>
