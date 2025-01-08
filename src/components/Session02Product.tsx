@@ -20,7 +20,7 @@ const Session02Product = () => {
           </p>
           <p>
           <span className="destaque-bonus">Bônus 3 </span>
-          {<CircleChevronRight className="arrow"/>} O valor integral do e-book em ca$hback para ser usado em qualquer serviço consultoria que você contratar com a Alessandra.
+          {<CircleChevronRight className="arrow"/>} O valor integral do e-book em cashback para ser usado em qualquer serviço consultoria que você contratar com a Alessandra.
           </p>
         </div>
         <a href="#" className="button-02">

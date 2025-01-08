@@ -42,10 +42,6 @@
   width: 60%;
 }
 
-@media (min-width: 768px) {
-  
-}
-
 @media (min-width: 1024px) {
   .container-08 {
     display: flex;
@@ -117,10 +113,11 @@
     justify-content: center;
     background-color: var(--quaternary-color);
     margin-top: 0;
+    height: 100%;
   }
   
   .perfil-08 {
-    width: 50vh;
+    width: 40vh;
     object-fit: cover;
     object-position: center;
   }
@@ -152,5 +149,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 80%;
   }
 }
