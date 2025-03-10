@@ -35,7 +35,7 @@
 }
 
 .faq-question {
-  font-size: var(--size-md);
+  font-size: var(--size-sm);
   font-weight: 700;
   font-family: var(--font-title);
   color: var(--quaternary-color);
@@ -45,6 +45,7 @@
   outline: none;
   text-align: left;
   display: flex;
+  letter-spacing: -1px;
 }
 
 .faq-item {
@@ -90,11 +91,22 @@
   }
 
   .faq-question {
-    font-size: var(--size-lg);
+    font-size: var(--size-md);
   }
 
   .faq-answer {
     font-size: var(--size-md);
+  }
+
+  .btn-07 {
+    padding: 20px;
+    font-size: var(--size-md);
+    background-color: var(--button-color);
+    border-radius: 10px;
+    font-family: var(--font-text);
+    font-weight: 700;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -112,7 +124,7 @@
   }
 
   .faq-question {
-    font-size: var(--size-lg);
+    font-size: var(--size-md);
   }
 
   .faq-answer {
@@ -122,7 +134,8 @@
 
 @media (min-width: 1700px) {
   .container-main-07 {
-
+    padding: 5% 2%;
+    gap: 60px;
   }
 
   .faq-section {
@@ -131,7 +144,8 @@
 
   .title-07 {
     font-size: var(--size-md);
-    width: 80%;
+    width: 60%;
+    padding: 0px;
   }
 
   .faq-question {

@@ -9,18 +9,17 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 80px;
+  padding: 60px 10px;
   gap: 20px;
 }
 
 .title-session03 {
   text-align: center;
   color: var(--secondary-color);
-  font-size: var(--size-sm);
-  font-family: var(--font-text);
+  font-size: var(--size-md);
+  font-family: var(--font-title);
   font-weight: 400;
-  width: 100%;
-  padding: 20px 10px;
+  width: 90%;
 }
 
 .destaque-03 {
@@ -33,7 +32,6 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  box-shadow:  4px 4px 20px 4px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   padding: 20px;
   max-width: 94%;
@@ -78,6 +76,7 @@
 
   .li-session03 {
     font-size: var(--size-md);
+    margin-left: 20px;
   }
 
   .li-session03::before {
@@ -89,17 +88,20 @@
   .main-session03 {
     background-image: url("../assets/backgrounds/3.png");
     background-position: bottom;
-    padding: 40px;
+    padding: 5% 2%;
     diplsay: flex;
     gap: 60px;
   }
   .title-session03 {
     font-size: var(--size-md);
+    width: 50%;
   }
 
   .li-session03 {
     font-size: max(1.2rem, 1.3vw);
     margin: 0;
+    display: flex;
+    gap: 16px;
   }
 
   .li-session03::before {
@@ -108,7 +110,6 @@
 
   .ul-session03-container {
     padding: 40px;
-    box-shadow:  0 4px 30px -8px var(--primary-color);
     gap: 20px;
     height: 60%;
   }

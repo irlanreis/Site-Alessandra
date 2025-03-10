@@ -12,16 +12,16 @@
 }
 
 .title-session04 {
-  text-align: center;
+  text-align: left;
   color: var(--quaternary-color);
-  font-size: var(--size-md);
+  font-size: var(--size-lg);
   font-family: var(--font-title);
   font-weight: 600;
-  width: 70%;
+  width: 80%;
   line-height: 1;
   border-radius: 15px;
   padding: 10px 0;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
 }
 
 .ul-session04-container {
@@ -58,11 +58,11 @@
 }
 
 .itens-product {
+  padding: 80px 20px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 80px;
-  width: 88%;
+  gap: 40px;
 }
 
 @media (min-width: 768px) {

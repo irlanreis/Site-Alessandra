@@ -76,6 +76,7 @@ const Session07Question = () => {
           </div>
         ))}
       </div>
+      <a href="https://pay.hotmart.com/O98261969X" target="_blank" rel="noopener noreferrer" className="btn-07">Quero meu e-book</a>
     </div>
   );
 };

@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--secondary-color);
-  padding: 60px;
+  padding: 30px 10px;
 }
 
 .title-09 {
@@ -47,4 +47,5 @@ a {
   .text-09 {
     padding: 30px;
   }
+
 }

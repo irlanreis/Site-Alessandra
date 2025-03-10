@@ -3,7 +3,7 @@
 .main-product {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   background-image: url("../assets/images/2.jpg");
   background-size: cover;
@@ -16,14 +16,14 @@
   font-size: var(--size-lg);
   font-family: var(--font-title);
   font-weight: 800;
-  color: var(--quinary-color);
+  color: var(--quaternary-color);
+  background-color: var(--primary-color);
   text-align: center;
-  margin: 10px;
-  width: 90%;
+  width: 100%;
+  max-width: 420px;
   line-height: 1;
-  background-color: var(--secondary-color);
-  padding: 10px 0;
   border-radius: 10px;
+  padding: 10px;
   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -32,10 +32,9 @@
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  width: 100%;
-  gap: 30px;
-  margin-bottom: 20px;
-  height: 100%;
+  max-width: 80%;
+  gap: 20px;
+  padding: 20px;	
 }
 
 .container-ul {
@@ -68,8 +67,7 @@
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  gap: 20px;
-  width: 90%;
+  gap: 10px;
   font-size: var(--size-xs);
   font-family: var(--font-text);
   line-height: 1.2;
@@ -77,6 +75,7 @@
   padding: 10px;
   color: var(--quinary-color);
   background-color: var(--primary-color);
+  max-width: 620px;
 }
 
 .destaque-bonus {
@@ -86,7 +85,10 @@
 }
 
 .arrow {
-  vertical-align: bottom;
+  vertical-align: middle;
+  margin: 2px;
+  font-size: var(--size-xs);
+  width: 20px;
 }
 
 circle {
@@ -121,48 +123,47 @@ path {
 }
 
 @media (min-width: 768px) {
-  .main-product {
-    background-color: var(--secondary-color);
-    background-image: none;
-    padding: 20px;
-    background-image: url("../assets/backgrounds/2.png");
-    background-size: cover;
-    background-position: right;
-    align-items: center;
+  .title-main {
+   font-size: var(--size-xl);
+   width: 100%;
+   max-width: 100%;
+   padding: 10px;
   }
 
   .content-text {
-    justify-content: space-evenly;
-    gap: 60px;
-    margin: 0;
-  }
-
-  .title-main {
-    font-size: max(2.8rem, 3.6vw);
-    width: 90%;
-    max-width: 800px;
-    text-align: center;
-    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    border-radius: 10px;
+    gap: 40px;
+    width: 100%;
   }
 
   .main-bonus {
     justify-content: space-evenly;
-    width: 80%;
-    font-size: var(--size-lg);
-    padding: 10px;
-    height: 40%;
+    gap: 20px;
+    width: 100%;
+    font-size: var(--size-md);
+    padding: 20px;
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
   }
 
   .destaque-bonus {
-    font-size: var(--size-lg);
+    font-size: var(--size-md);
   }
 
   .arrow {
-    vertical-align:;
+    vertical-align: middle;
+    margin: 2px;
+    font-size: var(--size-xs);
+    width: 28px;
   }
+  
+  circle {
+    fill: var(--quaternary-color);
+    color: var(--quaternary-color);
+  }
+  
+  path {
+    color: var(--primary-color);
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -178,25 +179,38 @@ path {
     font-size: max(2rem, 3vw);
     padding: 20px;
     margin: 0;
-    text-align: left;
     width: 100%;
   }
 
   .content-text {
-    align-items: start;
-    width: 60%;
+    width: 70%;
     gap: 40px;
   }
 
   .main-bonus {
     font-size: var(--size-md);
     padding: 20px;
-    width: 100%;
-    height: 45%;
+    max-width: 100%;
   }
 
   .destaque-bonus {
     font-size: var(--size-md);
+  }
+
+  .arrow {
+    vertical-align: top;
+    margin: 2px;
+    font-size: var(--size-xs);
+    width: 20px;
+  }
+  
+  circle {
+    fill: var(--quaternary-color);
+    color: var(--quaternary-color);
+  }
+  
+  path {
+    color: var(--primary-color);
   }
 
   .button-02 {
@@ -214,14 +228,15 @@ path {
   .title-main {
     font-size: max(2.2rem, 3vw);
     box-shadow: none;
-    max-width: 100%;
-    text-align: left;
+    text-align: center;
     padding: 0px;
+    max-width: 100%;
+    padding: 20px;
   }
 
   .content-text {
     gap: 80px;
-    align-items: start;
+    align-items: center;
     max-width: 60%;
   }
 

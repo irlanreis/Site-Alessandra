@@ -23,7 +23,7 @@ const Session02Product = () => {
           {<CircleChevronRight className="arrow"/>} O valor integral do e-book em cashback para ser usado em qualquer serviço consultoria que você contratar com a Alessandra.
           </p>
         </div>
-        <a href="#" className="button-02">
+        <a href="https://pay.hotmart.com/O98261969X" target="_blank" className="button">
           Preciso deste e-book
         </a>
       </div>
