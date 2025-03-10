@@ -21,7 +21,7 @@
 .button {
   background-color: var(--button-color);
   color: var(--primary-color);
-  font-size: var(--size-md);
+  font-size: var(--size-lg);
   font-family: var(--font-text);
   font-weight: bold;
   padding: 16px 20px;

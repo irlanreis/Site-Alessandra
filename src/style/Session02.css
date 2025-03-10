@@ -32,9 +32,8 @@
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  max-width: 80%;
   gap: 20px;
-  padding: 20px;	
+  padding: 20px;
 }
 
 .container-ul {
@@ -132,7 +131,7 @@ path {
 
   .content-text {
     gap: 40px;
-    width: 100%;
+    width: 80%;
   }
 
   .main-bonus {
@@ -168,7 +167,6 @@ path {
 
 @media (min-width: 1024px) {
   .main-product {
-    padding: 40px;
     background-image: url("../assets/backgrounds/2.png");
     background-size: cover;
     background-position: center;
