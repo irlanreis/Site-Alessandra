@@ -39,6 +39,9 @@ function Session03PriceProduct() {
             <span className="price-cash">ou R$ 97,00</span> à vista
           </p>
         </div>
+        <a type="button" className="button" href="https://pay.hotmart.com/O98261969X" target="_blank">
+          Quero meu e-book
+        </a>
       </div>
 
      <a href="https://pay.hotmart.com/O98261969X" target="_blank" rel="noopener noreferrer" className="button">Garantir ebook</a>
