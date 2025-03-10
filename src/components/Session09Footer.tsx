@@ -5,8 +5,8 @@ const Session09Footer = () => {
     <div>
       <footer className="container-09">
         <h1 className="title-09">Alessandra</h1>
-        <button className="button-09">Comprar agora</button>
-        <button className="button-09"><a href="home">Home</a></button>
+        <a className="button-09" href='https://pay.hotmart.com/O98261969X' target="_blank">Comprar agora</a>
+        <button className="button-09" ><a href="home">Home</a></button>
       </footer>
         <p className='text-09'>© 2024 Ebook - Investindo na sua Imagem com Consciência Financeira</p>
     </div>

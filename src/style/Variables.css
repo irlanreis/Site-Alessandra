@@ -7,7 +7,7 @@
   --senary-color: #30221a;
   --button-color: green;
 
-  --font-text: 'open sans', sans-serif;
+  --font-text: 'Poppins', sans-serif;
   --font-title: 'Old Standard TT', serif;
 
   --size-xxs: max(0.6rem, 0.8vw);
@@ -19,9 +19,9 @@
 }
 
 .button {
-  background-color: var(--tertiary-color);
-  color: var(--quinary-color);
-  font-size: var(--size-md);
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  font-size: var(--size-lg);
   font-family: var(--font-text);
   font-weight: bold;
   padding: 16px 20px;

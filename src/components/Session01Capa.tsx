@@ -26,9 +26,9 @@ const Session01Capa = () => {
         <p className="text-info-01">
         Você pode falar qualquer coisa, menos que este e-book não vai mudar a forma como você encara suas compras de moda e a sua montagem de looks no dia a dia.
         </p>
-        <button type="button" className="button">
+        <a type="button" className="button" href="https://pay.hotmart.com/O98261969X" target="_blank" rel="noopener noreferrer">
           Quero meu e-book
-        </button>
+        </a>
         <p className="text-info-02">
           Com o e-book{" "}
           <span className="destaque">

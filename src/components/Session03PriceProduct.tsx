@@ -25,21 +25,23 @@ function Session03PriceProduct() {
 
         <div className="price-finally">
           <p className="total">
-            <span className="total-label">Total:</span> de{" "}
-            <span className="price-old">R$ 603,00</span>
+            <span className="total-label">Total </span> de{" "}
+            <span className="price-old">R$ 603,00</span> por apenas
           </p>
 
-          <p className="installments">por apenas</p>
+          <p className="installments"></p>
 
           <p className="payment">
-            <span className="installment">xx x de R$ xx,xx</span>
+            <span className="installment">10 x de R$ 11,66</span>
           </p>
 
           <p className="cash-payment">
-            <span className="price-cash">ou 97,00</span> à vista
+            <span className="price-cash">ou R$ 97,00</span> à vista
           </p>
         </div>
       </div>
+
+     <a href="https://pay.hotmart.com/O98261969X" target="_blank" rel="noopener noreferrer" className="button">Garantir ebook</a>
     </div>
   );
 }
